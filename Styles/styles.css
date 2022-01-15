@@ -99,6 +99,15 @@ header{
                     grid-row-gap: 35px;
                     margin-bottom: 65px;
 }
+@media only screen and (max-width: 688px){
+    .colection-blogs{
+                        display: grid;
+                        grid-template-columns: repeat(1,375px);
+                        justify-content: center;
+                        grid-row-gap: 35px;
+                        margin-bottom: 65px;
+                   }  
+}
 .blog {
         box-shadow: 1px 1px 4px 4px rgb(167, 161, 161);
         width: 300px;
@@ -183,7 +192,7 @@ header{
    font-size: 24px;
    
 }
-.social-media a{
-    text-decoration: none;
-    color: white;
+.social-media a {
+                text-decoration: none;
+                color: white;
 }
