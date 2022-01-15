@@ -1,0 +1,192 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Be+Vietnam+Pro&family=Poppins:ital,wght@1,400;1,500&family=Roboto:ital,wght@1,400;1,900&family=Yeseva+One&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* Header-Styles */
+header{
+    display: flex;
+    
+}
+.header-title{
+    margin-left: 80px;
+    margin-top: 45px;
+    font-weight: 400;
+    
+}
+.layout{
+    margin-left: 380px;
+    margin-top: 52px; 
+    
+     
+}
+.menu-layout{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-bar{
+    margin-right: 34px;
+}
+.menu-bar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+}
+.menu-bar a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+/* Main Contect Styles */
+.first-section{
+    margin-top: 40px;
+    margin-bottom: 240px;
+}
+.section-details{
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title{
+    font-size: 48px;
+}
+.section-text{
+    margin-top: 80px;
+}
+#section-details {
+    width: 480px;
+    font-size: 20px;
+}
+.button{
+     text-decoration: none;
+     color: black;
+     background-color:hotpink;
+     padding: 10px 24px;
+     border-radius: 41px;
+     font-weight: 600;
+}
+.section-img img{
+    margin-left: 170px;
+    position: absolute;
+    
+}
+.camera{
+    margin-bottom: 30px;
+}
+.section-img:hover #camera{
+       transform: scale(1.2) rotate(-20deg);
+}
+/* Logos-Style */
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.logo img{
+    margin-right: 40px;
+}
+/* popular-Collection Style */
+.colection-blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 35px;
+    
+    margin-bottom: 65px;
+}
+
+.popular-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog{
+    box-shadow: 1px 1px 4px 4px rgb(167, 161, 161);
+    width: 300px;
+    height: 520px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    
+}
+ .blog-one{
+    margin-left: 120px;
+}
+.blog-two{
+    margin-left: 60px;
+}
+
+.blog-img img{
+    width: 300px;
+    height: 256px;
+}
+.article-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+}
+.price{
+    font-family: Inter;
+    font-size: 24px;
+}
+.rating-star{
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgb(255, 124, 31);
+}
+.rate{
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.see-more{
+    margin-left: 1122px;
+    text-decoration: none;
+    color: hotpink;
+    font-weight: bold;
+}
+
+/* Feautres Product */
+.features{
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.feature-img img{
+      margin-left: 115px;
+}
+.feature-text{
+    margin-left: 80px;
+}
+.sing-up{
+     text-decoration: none;
+     color: black;
+     background-color:hotpink;
+     padding: 10px 24px;
+     border-radius: 3px;
+     font-weight: 600;
+     
+}
+.feature-text div{
+    margin-top: 30px;
+}
+/* Footer style */
+.footer-div{ height: 190px;
+            background-color: rgb(21, 21, 59);
+            color:white;
+            text-align: center;
+            padding-top: 20px;
+    
+}
+.icons{
+    display: flex;
+    justify-content:center;
+}
+.social-media{
+   margin-right: 20px;
+   font-size: 24px;
+   
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
