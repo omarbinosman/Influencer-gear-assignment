@@ -75,7 +75,8 @@ header{
     margin-bottom: 30px;
 }
 .section-img:hover #camera{
-       transform: scale(1.2) rotate(-20deg);
+       transform: scale(1.2) rotateZ(20deg);
+       transition: transform 1s;
 }
 /* Logos-Style */
 .logos{
